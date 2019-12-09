@@ -1,0 +1,660 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:atold="http://publications.europa.eu/resource/authority/"
+         xmlns:at="http://publications.europa.eu/ontology/authority/"
+         xmlns:edp="https://europeandataportal.eu/voc#">
+
+    <skos:Concept rdf:about="http://europeandataportal.eu/ontologies/od-licenses#CC-BY-SA3.0NL" at:deprecated="false">
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/licence"/>
+        <dc:identifier>CC_BYSA_3_0_NL</dc:identifier>
+        <skos:prefLabel xml:lang="nl">Naamsvermelding-GelijkDelen 3.0 Nederland</skos:prefLabel>
+        <skos:altLabel xml:lang="cs">CC BY-SA 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="da">CC BY-SA 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="de">CC BY-SA 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="el">CC BY-SA 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="en">CC BY-SA 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="fi">CC BY-SA 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="fr">CC BY-SA 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="hr">CC BY-SA 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="hu">CC BY-SA 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="it">CC BY-SA 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="lv">CC BY-SA 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="lt">CC BY-SA 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="nl">CC BY-SA 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="pl">CC BY-SA 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="pt">CC BY-SA 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="ro">CC BY-SA 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="sl">CC BY-SA 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="es">CC BY-SA 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="sv">CC BY-SA 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="bg">CC BY-SA 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="et">CC BY-SA 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="ga">CC BY-SA 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="mt">CC BY-SA 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="sk">CC BY-SA 3.0 NL</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/nl/legalcode/"/>
+        <edp:licensingAssistant rdf:resource="https://www.europeandataportal.eu/en/content/show-license?license_id=CC-BY-SA3.0NL"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://europeandataportal.eu/ontologies/od-licenses#CC-BY3.0NL" at:deprecated="false">
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/licence"/>
+        <dc:identifier>CC_BY_3_0_NL</dc:identifier>
+        <skos:prefLabel xml:lang="nl">Naamsvermelding 3.0 Nederland</skos:prefLabel>
+        <skos:altLabel xml:lang="cs">CC BY 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="da">CC BY 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="de">CC BY 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="el">CC BY 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="en">CC BY 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="fi">CC BY 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="fr">CC BY 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="hr">CC BY 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="hu">CC BY 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="it">CC BY 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="lv">CC BY 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="lt">CC BY 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="nl">CC BY 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="pl">CC BY 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="pt">CC BY 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="ro">CC BY 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="sl">CC BY 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="es">CC BY 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="sv">CC BY 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="bg">CC BY 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="et">CC BY 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="ga">CC BY 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="mt">CC BY 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="sk">CC BY 3.0 NL</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://creativecommons.org/licenses/by/3.0/nl/legalcode"/>
+        <edp:licensingAssistant rdf:resource="https://www.europeandataportal.eu/en/content/show-license?license_id=CC-BY3.0NL"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://europeandataportal.eu/ontologies/od-licenses#CC-PDM1.0" at:deprecated="false">
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/licence"/>
+        <dc:identifier>CC_PDM_1_0</dc:identifier>
+        <skos:prefLabel xml:lang="en">Public Domain Mark 1.0</skos:prefLabel>
+        <skos:altLabel xml:lang="cs">CC PDM 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="da">CC PDM 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="de">CC PDM 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="el">CC PDM 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="en">CC PDM 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="fi">CC PDM 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="fr">CC PDM 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="hr">CC PDM 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="hu">CC PDM 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="it">CC PDM 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="lv">CC PDM 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="lt">CC PDM 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="nl">CC PDM 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="pl">CC PDM 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="pt">CC PDM 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="ro">CC PDM 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="sl">CC PDM 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="es">CC PDM 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="sv">CC PDM 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="bg">CC PDM 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="et">CC PDM 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="ga">CC PDM 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="mt">CC PDM 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="sk">CC PDM 1.0</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://creativecommons.org/publicdomain/mark/1.0/"/>
+        <edp:licensingAssistant rdf:resource="https://www.europeandataportal.eu/en/content/show-license?license_id=CC-PDM1.0"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/licence/CC0">
+        <edp:licensingAssistant rdf:resource="http://publications.europa.eu/resource/authority/licence/CC0"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://europeandataportal.eu/ontologies/od-licenses#CCBY3.0Austria" at:deprecated="false">
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/licence"/>
+        <dc:identifier>CC_BY_3_0_AT</dc:identifier>
+        <skos:prefLabel xml:lang="de">Namensnennung 3.0 Österreich</skos:prefLabel>
+        <skos:altLabel xml:lang="cs">CC BY 3.0 AT</skos:altLabel>
+        <skos:altLabel xml:lang="da">CC BY 3.0 AT</skos:altLabel>
+        <skos:altLabel xml:lang="de">CC BY 3.0 AT</skos:altLabel>
+        <skos:altLabel xml:lang="el">CC BY 3.0 AT</skos:altLabel>
+        <skos:altLabel xml:lang="en">CC BY 3.0 AT</skos:altLabel>
+        <skos:altLabel xml:lang="fi">CC BY 3.0 AT</skos:altLabel>
+        <skos:altLabel xml:lang="fr">CC BY 3.0 AT</skos:altLabel>
+        <skos:altLabel xml:lang="hr">CC BY 3.0 AT</skos:altLabel>
+        <skos:altLabel xml:lang="hu">CC BY 3.0 AT</skos:altLabel>
+        <skos:altLabel xml:lang="it">CC BY 3.0 AT</skos:altLabel>
+        <skos:altLabel xml:lang="lv">CC BY 3.0 AT</skos:altLabel>
+        <skos:altLabel xml:lang="lt">CC BY 3.0 AT</skos:altLabel>
+        <skos:altLabel xml:lang="nl">CC BY 3.0 AT</skos:altLabel>
+        <skos:altLabel xml:lang="pl">CC BY 3.0 AT</skos:altLabel>
+        <skos:altLabel xml:lang="pt">CC BY 3.0 AT</skos:altLabel>
+        <skos:altLabel xml:lang="es">CC BY 3.0 NL</skos:altLabel>
+        <skos:altLabel xml:lang="ro">CC BY 3.0 AT</skos:altLabel>
+        <skos:altLabel xml:lang="sl">CC BY 3.0 AT</skos:altLabel>
+        <skos:altLabel xml:lang="sv">CC BY 3.0 AT</skos:altLabel>
+        <skos:altLabel xml:lang="bg">CC BY 3.0 AT</skos:altLabel>
+        <skos:altLabel xml:lang="et">CC BY 3.0 AT</skos:altLabel>
+        <skos:altLabel xml:lang="ga">CC BY 3.0 AT</skos:altLabel>
+        <skos:altLabel xml:lang="mt">CC BY 3.0 AT</skos:altLabel>
+        <skos:altLabel xml:lang="sk">CC BY 3.0 AT</skos:altLabel>
+        <skos:exactMatch rdf:resource="https://creativecommons.org/licenses/by/3.0/at/legalcode"/>
+        <edp:licensingAssistant rdf:resource="https://www.europeandataportal.eu/en/content/show-license?license_id=CCBY3.0Austria"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://europeandataportal.eu/ontologies/od-licenses#DL-DE-BY-NC1.0" at:deprecated="false">
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/licence"/>
+        <dc:identifier>DLDE_BYNC_1_0</dc:identifier>
+        <skos:prefLabel xml:lang="en">Data licence Germany – attribution – non-commercial – Version 1.0</skos:prefLabel>
+        <skos:altLabel xml:lang="cs">DL-DE BY-NC 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="da">DL-DE BY-NC 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="de">DL-DE BY-NC 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="el">DL-DE BY-NC 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="en">DL-DE BY-NC 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="fi">DL-DE BY-NC 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="fr">DL-DE BY-NC 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="hr">DL-DE BY-NC 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="hu">DL-DE BY-NC 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="it">DL-DE BY-NC 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="lv">DL-DE BY-NC 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="lt">DL-DE BY-NC 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="nl">DL-DE BY-NC 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="pl">DL-DE BY-NC 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="pt">DL-DE BY-NC 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="es">DL-DE BY-NC 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="ro">DL-DE BY-NC 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="sl">DL-DE BY-NC 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="sv">DL-DE BY-NC 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="bg">DL-DE BY-NC 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="et">DL-DE BY-NC 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="ga">DL-DE BY-NC 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="mt">DL-DE BY-NC 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="sk">DL-DE BY-NC 1.0</skos:altLabel>
+        <skos:exactMatch rdf:resource="https://www.govdata.de/dl-de/by-nc-1-0"/>
+        <edp:licensingAssistant rdf:resource="https://www.europeandataportal.eu/en/content/show-license?license_id=DL-DE-BY-NC1.0"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://europeandataportal.eu/ontologies/od-licenses#DL-DE-BY1.0" at:deprecated="false">
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/licence"/>
+        <dc:identifier>DLDE_BY_1_0</dc:identifier>
+        <skos:prefLabel xml:lang="en">Data licence Germany – attribution – Version 1.0</skos:prefLabel>
+        <skos:altLabel xml:lang="cs">DL-DE BY 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="da">DL-DE BY 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="de">DL-DE BY 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="el">DL-DE BY 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="en">DL-DE BY 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="fi">DL-DE BY 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="fr">DL-DE BY 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="hr">DL-DE BY 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="hu">DL-DE BY 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="it">DL-DE BY 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="lv">DL-DE BY 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="lt">DL-DE BY 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="nl">DL-DE BY 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="pl">DL-DE BY 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="pt">DL-DE BY 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="es">DL-DE BY 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="ro">DL-DE BY 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="sl">DL-DE BY 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="sv">DL-DE BY 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="bg">DL-DE BY 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="et">DL-DE BY 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="ga">DL-DE BY 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="mt">DL-DE BY 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="sk">DL-DE BY 1.0</skos:altLabel>
+        <skos:exactMatch rdf:resource="https://www.govdata.de/dl-de/by-1-0"/>
+        <edp:licensingAssistant rdf:resource="https://www.europeandataportal.eu/en/content/show-license?license_id=DL-DE-BY1.0"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://europeandataportal.eu/ontologies/od-licenses#DL-DE-BY2.0" at:deprecated="false">
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/licence"/>
+        <dc:identifier>DLDE_BY_2_0</dc:identifier>
+        <skos:prefLabel xml:lang="en">Data licence Germany – attribution – Version 2.0</skos:prefLabel>
+        <skos:altLabel xml:lang="cs">DL-DE BY 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="da">DL-DE BY 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="de">DL-DE BY 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="el">DL-DE BY 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="en">DL-DE BY 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="fi">DL-DE BY 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="fr">DL-DE BY 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="hr">DL-DE BY 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="hu">DL-DE BY 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="it">DL-DE BY 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="lv">DL-DE BY 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="lt">DL-DE BY 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="nl">DL-DE BY 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="pl">DL-DE BY 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="pt">DL-DE BY 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="es">DL-DE BY 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="ro">DL-DE BY 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="sl">DL-DE BY 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="sv">DL-DE BY 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="bg">DL-DE BY 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="et">DL-DE BY 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="ga">DL-DE BY 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="mt">DL-DE BY 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="sk">DL-DE BY 2.0</skos:altLabel>
+        <skos:exactMatch rdf:resource="https://www.govdata.de/dl-de/by-2-0"/>
+        <edp:licensingAssistant rdf:resource="https://www.europeandataportal.eu/en/content/show-license?license_id=DL-DE-BY2.0"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://europeandataportal.eu/ontologies/od-licenses#DL-DE-ZERO2.0" at:deprecated="false">
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/licence"/>
+        <dc:identifier>DLDE_ZERO_2_0</dc:identifier>
+        <skos:prefLabel xml:lang="en">Data licence Germany - Zero - Version 2.0</skos:prefLabel>
+        <skos:altLabel xml:lang="cs">DL-DE ZERO 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="da">DL-DE ZERO 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="de">DL-DE ZERO 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="el">DL-DE ZERO 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="en">DL-DE ZERO 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="fi">DL-DE ZERO 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="fr">DL-DE ZERO 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="hr">DL-DE ZERO 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="hu">DL-DE ZERO 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="it">DL-DE ZERO 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="lv">DL-DE ZERO 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="lt">DL-DE ZERO 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="nl">DL-DE ZERO 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="pl">DL-DE ZERO 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="pt">DL-DE ZERO 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="es">DL-DE ZERO 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="ro">DL-DE ZERO 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="sl">DL-DE ZERO 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="sv">DL-DE ZERO 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="bg">DL-DE ZERO 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="et">DL-DE ZERO 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="ga">DL-DE ZERO 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="mt">DL-DE ZERO 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="sk">DL-DE ZERO 2.0</skos:altLabel>
+        <skos:exactMatch rdf:resource="https://www.govdata.de/dl-de/zero-2-0"/>
+        <edp:licensingAssistant rdf:resource="https://www.europeandataportal.eu/en/content/show-license?license_id=DL-DE-ZERO2.0"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://europeandataportal.eu/ontologies/od-licenses#GFDL-1.1" at:deprecated="true">
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/licence"/>
+        <dc:identifier>GNU_FDL_1_1</dc:identifier>
+        <skos:prefLabel xml:lang="en">GNU Free Documentation License 1.1</skos:prefLabel>
+        <skos:altLabel xml:lang="en">GNU FDL 1.1</skos:altLabel>
+        <skos:altLabel xml:lang="bg">GNU FDL 1.1</skos:altLabel>
+        <skos:altLabel xml:lang="cs">GNU FDL 1.1</skos:altLabel>
+        <skos:altLabel xml:lang="da">GNU FDL 1.1</skos:altLabel>
+        <skos:altLabel xml:lang="de">GNU FDL 1.1</skos:altLabel>
+        <skos:altLabel xml:lang="el">GNU FDL 1.1</skos:altLabel>
+        <skos:altLabel xml:lang="et">GNU FDL 1.1</skos:altLabel>
+        <skos:altLabel xml:lang="fi">GNU FDL 1.1</skos:altLabel>
+        <skos:altLabel xml:lang="fr">GNU FDL 1.1</skos:altLabel>
+        <skos:altLabel xml:lang="ga">GNU FDL 1.1</skos:altLabel>
+        <skos:altLabel xml:lang="hr">GNU FDL 1.1</skos:altLabel>
+        <skos:altLabel xml:lang="hu">GNU FDL 1.1</skos:altLabel>
+        <skos:altLabel xml:lang="it">GNU FDL 1.1</skos:altLabel>
+        <skos:altLabel xml:lang="lv">GNU FDL 1.1</skos:altLabel>
+        <skos:altLabel xml:lang="lt">GNU FDL 1.1</skos:altLabel>
+        <skos:altLabel xml:lang="mt">GNU FDL 1.1</skos:altLabel>
+        <skos:altLabel xml:lang="nl">GNU FDL 1.1</skos:altLabel>
+        <skos:altLabel xml:lang="pl">GNU FDL 1.1</skos:altLabel>
+        <skos:altLabel xml:lang="pt">GNU FDL 1.1</skos:altLabel>
+        <skos:altLabel xml:lang="ro">GNU FDL 1.1</skos:altLabel>
+        <skos:altLabel xml:lang="sk">GNU FDL 1.1</skos:altLabel>
+        <skos:altLabel xml:lang="sl">GNU FDL 1.1</skos:altLabel>
+        <skos:altLabel xml:lang="es">GNU FDL 1.1</skos:altLabel>
+        <skos:altLabel xml:lang="sv">GNU FDL 1.1</skos:altLabel>
+        <skos:exactMatch rdf:resource="https://gnu.org/licenses/old-licenses/fdl-1.1"/>
+        <edp:licensingAssistant rdf:resource="https://www.europeandataportal.eu/en/content/show-license?license_id=GFDL-1.1"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://europeandataportal.eu/ontologies/od-licenses#GFDL-1.2" at:deprecated="true">
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/licence"/>
+        <dc:identifier>GNU_FDL_1_2</dc:identifier>
+        <skos:prefLabel xml:lang="en">GNU Free Documentation License 1.2</skos:prefLabel>
+        <skos:altLabel xml:lang="en">GNU FDL 1.2</skos:altLabel>
+        <skos:altLabel xml:lang="bg">GNU FDL 1.2</skos:altLabel>
+        <skos:altLabel xml:lang="cs">GNU FDL 1.2</skos:altLabel>
+        <skos:altLabel xml:lang="da">GNU FDL 1.2</skos:altLabel>
+        <skos:altLabel xml:lang="de">GNU FDL 1.2</skos:altLabel>
+        <skos:altLabel xml:lang="el">GNU FDL 1.2</skos:altLabel>
+        <skos:altLabel xml:lang="et">GNU FDL 1.2</skos:altLabel>
+        <skos:altLabel xml:lang="fi">GNU FDL 1.2</skos:altLabel>
+        <skos:altLabel xml:lang="fr">GNU FDL 1.2</skos:altLabel>
+        <skos:altLabel xml:lang="ga">GNU FDL 1.2</skos:altLabel>
+        <skos:altLabel xml:lang="hr">GNU FDL 1.2</skos:altLabel>
+        <skos:altLabel xml:lang="hu">GNU FDL 1.2</skos:altLabel>
+        <skos:altLabel xml:lang="it">GNU FDL 1.2</skos:altLabel>
+        <skos:altLabel xml:lang="lv">GNU FDL 1.2</skos:altLabel>
+        <skos:altLabel xml:lang="lt">GNU FDL 1.2</skos:altLabel>
+        <skos:altLabel xml:lang="mt">GNU FDL 1.2</skos:altLabel>
+        <skos:altLabel xml:lang="nl">GNU FDL 1.2</skos:altLabel>
+        <skos:altLabel xml:lang="pl">GNU FDL 1.2</skos:altLabel>
+        <skos:altLabel xml:lang="pt">GNU FDL 1.2</skos:altLabel>
+        <skos:altLabel xml:lang="ro">GNU FDL 1.2</skos:altLabel>
+        <skos:altLabel xml:lang="sk">GNU FDL 1.2</skos:altLabel>
+        <skos:altLabel xml:lang="sl">GNU FDL 1.2</skos:altLabel>
+        <skos:altLabel xml:lang="es">GNU FDL 1.2</skos:altLabel>
+        <skos:altLabel xml:lang="sv">GNU FDL 1.2</skos:altLabel>
+        <skos:exactMatch rdf:resource="https://gnu.org/licenses/old-licenses/fdl-1.2"/>
+        <edp:licensingAssistant rdf:resource="https://www.europeandataportal.eu/en/content/show-license?license_id=GFDL-1.2"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/licence/GNU_FDL">
+        <edp:licensingAssistant rdf:resource="https://www.europeandataportal.eu/en/content/show-license?license_id=GFDL-1.3"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://europeandataportal.eu/ontologies/od-licenses#HR-OD" at:deprecated="false">
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/licence"/>
+        <dc:identifier>HROD</dc:identifier>
+        <skos:prefLabel xml:lang="en">Open Licence - The Republic of Croatia</skos:prefLabel>
+        <skos:altLabel xml:lang="en">HR-OD</skos:altLabel>
+        <skos:altLabel xml:lang="bg">HR-OD</skos:altLabel>
+        <skos:altLabel xml:lang="cs">HR-OD</skos:altLabel>
+        <skos:altLabel xml:lang="da">HR-OD</skos:altLabel>
+        <skos:altLabel xml:lang="de">HR-OD</skos:altLabel>
+        <skos:altLabel xml:lang="el">HR-OD</skos:altLabel>
+        <skos:altLabel xml:lang="et">HR-OD</skos:altLabel>
+        <skos:altLabel xml:lang="fi">HR-OD</skos:altLabel>
+        <skos:altLabel xml:lang="fr">HR-OD</skos:altLabel>
+        <skos:altLabel xml:lang="ga">HR-OD</skos:altLabel>
+        <skos:altLabel xml:lang="hr">HR-OD</skos:altLabel>
+        <skos:altLabel xml:lang="hu">HR-OD</skos:altLabel>
+        <skos:altLabel xml:lang="it">HR-OD</skos:altLabel>
+        <skos:altLabel xml:lang="lv">HR-OD</skos:altLabel>
+        <skos:altLabel xml:lang="lt">HR-OD</skos:altLabel>
+        <skos:altLabel xml:lang="mt">HR-OD</skos:altLabel>
+        <skos:altLabel xml:lang="nl">HR-OD</skos:altLabel>
+        <skos:altLabel xml:lang="pl">HR-OD</skos:altLabel>
+        <skos:altLabel xml:lang="pt">HR-OD</skos:altLabel>
+        <skos:altLabel xml:lang="ro">HR-OD</skos:altLabel>
+        <skos:altLabel xml:lang="sk">HR-OD</skos:altLabel>
+        <skos:altLabel xml:lang="sl">HR-OD</skos:altLabel>
+        <skos:altLabel xml:lang="es">HR-OD</skos:altLabel>
+        <skos:altLabel xml:lang="sv">HR-OD</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://data.gov.hr/open-licence-republic-croatia"/>
+        <edp:licensingAssistant rdf:resource="https://www.europeandataportal.eu/en/content/show-license?license_id=HR-OD"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://europeandataportal.eu/ontologies/od-licenses#IODLv1.0" at:deprecated="true">
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/licence"/>
+        <dc:identifier>IODL_1_0</dc:identifier>
+        <skos:prefLabel xml:lang="en">Italian Open Data License v1.0</skos:prefLabel>
+        <skos:altLabel xml:lang="en">IODL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="bg">IODL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="cs">IODL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="da">IODL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="de">IODL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="el">IODL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="et">IODL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="fi">IODL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="fr">IODL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="ga">IODL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="hr">IODL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="hu">IODL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="it">IODL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="lv">IODL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="lt">IODL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="mt">IODL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="nl">IODL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="pl">IODL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="pt">IODL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="ro">IODL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="sk">IODL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="sl">IODL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="es">IODL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="sv">IODL 1.0</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://www.formez.it/iodl/"/>
+        <edp:licensingAssistant rdf:resource="https://www.europeandataportal.eu/en/content/show-license?license_id=IODLv1.0"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://europeandataportal.eu/ontologies/od-licenses#IODLv2.0" at:deprecated="false">
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/licence"/>
+        <dc:identifier>IODL_2_0</dc:identifier>
+        <skos:prefLabel xml:lang="en">Italian Open Data License v2.0</skos:prefLabel>
+        <skos:altLabel xml:lang="en">IODL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="bg">IODL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="cs">IODL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="da">IODL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="de">IODL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="el">IODL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="et">IODL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="fi">IODL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="fr">IODL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="ga">IODL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="hr">IODL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="hu">IODL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="it">IODL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="lv">IODL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="lt">IODL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="mt">IODL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="nl">IODL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="pl">IODL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="pt">IODL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="ro">IODL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="sk">IODL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="sl">IODL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="es">IODL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="sv">IODL 2.0</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://www.dati.gov.it/iodl/2.0/"/>
+        <edp:licensingAssistant rdf:resource="https://www.europeandataportal.eu/en/content/show-license?license_id=IODLv2.0"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://europeandataportal.eu/ontologies/od-licenses#NLOD" at:deprecated="false">
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/licence"/>
+        <dc:identifier>NLOD</dc:identifier>
+        <skos:prefLabel xml:lang="en">Norwegian Licence for Open Government Data 1.0</skos:prefLabel>
+        <skos:altLabel xml:lang="en">NLOD 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="bg">NLOD 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="cs">NLOD 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="da">NLOD 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="de">NLOD 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="el">NLOD 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="et">NLOD 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="fi">NLOD 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="fr">NLOD 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="ga">NLOD 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="hr">NLOD 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="hu">NLOD 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="it">NLOD 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="lv">NLOD 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="lt">NLOD 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="mt">NLOD 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="nl">NLOD 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="pl">NLOD 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="pt">NLOD 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="ro">NLOD 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="sk">NLOD 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="sl">NLOD 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="es">NLOD 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="sv">NLOD 1.0</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://data.norge.no/nlod/en/1.0"/>
+        <edp:licensingAssistant rdf:resource="https://www.europeandataportal.eu/en/content/show-license?license_id=NLOD"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://europeandataportal.eu/ontologies/od-licenses#OGL-NC" at:deprecated="false">
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/licence"/>
+        <dc:identifier>OGL_NC</dc:identifier>
+        <skos:prefLabel xml:lang="en">Non-Commercial Government Licence</skos:prefLabel>
+        <skos:altLabel xml:lang="en">OGL NC</skos:altLabel>
+        <skos:altLabel xml:lang="bg">OGL NC</skos:altLabel>
+        <skos:altLabel xml:lang="cs">OGL NC</skos:altLabel>
+        <skos:altLabel xml:lang="da">OGL NC</skos:altLabel>
+        <skos:altLabel xml:lang="de">OGL NC</skos:altLabel>
+        <skos:altLabel xml:lang="el">OGL NC</skos:altLabel>
+        <skos:altLabel xml:lang="et">OGL NC</skos:altLabel>
+        <skos:altLabel xml:lang="fi">OGL NC</skos:altLabel>
+        <skos:altLabel xml:lang="fr">OGL NC</skos:altLabel>
+        <skos:altLabel xml:lang="ga">OGL NC</skos:altLabel>
+        <skos:altLabel xml:lang="hr">OGL NC</skos:altLabel>
+        <skos:altLabel xml:lang="hu">OGL NC</skos:altLabel>
+        <skos:altLabel xml:lang="it">OGL NC</skos:altLabel>
+        <skos:altLabel xml:lang="lv">OGL NC</skos:altLabel>
+        <skos:altLabel xml:lang="lt">OGL NC</skos:altLabel>
+        <skos:altLabel xml:lang="mt">OGL NC</skos:altLabel>
+        <skos:altLabel xml:lang="nl">OGL NC</skos:altLabel>
+        <skos:altLabel xml:lang="pl">OGL NC</skos:altLabel>
+        <skos:altLabel xml:lang="pt">OGL NC</skos:altLabel>
+        <skos:altLabel xml:lang="ro">OGL NC</skos:altLabel>
+        <skos:altLabel xml:lang="sk">OGL NC</skos:altLabel>
+        <skos:altLabel xml:lang="sl">OGL NC</skos:altLabel>
+        <skos:altLabel xml:lang="es">OGL NC</skos:altLabel>
+        <skos:altLabel xml:lang="sv">OGL NC</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://www.nationalarchives.gov.uk/doc/non-commercial-government-licence/non-commercial-government-licence.htm"/>
+        <edp:licensingAssistant rdf:resource="https://www.europeandataportal.eu/en/content/show-license?license_id=OGL-NC"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://europeandataportal.eu/ontologies/od-licenses#OGL-ROU-1.0" at:deprecated="false">
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/licence"/>
+        <dc:identifier>OGLROU_1_0</dc:identifier>
+        <skos:prefLabel xml:lang="en">Non-Commercial Government Licence</skos:prefLabel>
+        <skos:altLabel xml:lang="en">OGL-ROU 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="bg">OGL-ROU 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="cs">OGL-ROU 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="da">OGL-ROU 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="de">OGL-ROU 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="el">OGL-ROU 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="et">OGL-ROU 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="fi">OGL-ROU 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="fr">OGL-ROU 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="ga">OGL-ROU 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="hr">OGL-ROU 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="hu">OGL-ROU 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="it">OGL-ROU 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="lv">OGL-ROU 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="lt">OGL-ROU 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="mt">OGL-ROU 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="nl">OGL-ROU 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="pl">OGL-ROU 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="pt">OGL-ROU 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="ro">OGL-ROU 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="sk">OGL-ROU 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="sl">OGL-ROU 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="es">OGL-ROU 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="sv">OGL-ROU 1.0</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://data.gov.ro/base/images/logoinst/OGL-ROU-1.0.pdf"/>
+        <edp:licensingAssistant rdf:resource="https://www.europeandataportal.eu/en/content/show-license?license_id=OGL-ROU-1.0"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://europeandataportal.eu/ontologies/od-licenses#OGL1.0" at:deprecated="false">
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/licence"/>
+        <dc:identifier>OGL_1_0</dc:identifier>
+        <skos:prefLabel xml:lang="en">Open Government Licence 1.0</skos:prefLabel>
+        <skos:altLabel xml:lang="en">OGL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="bg">OGL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="cs">OGL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="da">OGL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="de">OGL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="el">OGL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="et">OGL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="fi">OGL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="fr">OGL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="ga">OGL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="hr">OGL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="hu">OGL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="it">OGL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="lv">OGL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="lt">OGL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="mt">OGL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="nl">OGL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="pl">OGL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="pt">OGL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="ro">OGL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="sk">OGL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="sl">OGL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="es">OGL 1.0</skos:altLabel>
+        <skos:altLabel xml:lang="sv">OGL 1.0</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/1/"/>
+        <edp:licensingAssistant rdf:resource="https://www.europeandataportal.eu/en/content/show-license?license_id=OGL1.0"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://europeandataportal.eu/ontologies/od-licenses#OGL2.0" at:deprecated="false">
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/licence"/>
+        <dc:identifier>OGL_2_0</dc:identifier>
+        <skos:prefLabel xml:lang="en">Open Government Licence 2.0</skos:prefLabel>
+        <skos:altLabel xml:lang="en">OGL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="bg">OGL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="cs">OGL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="da">OGL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="de">OGL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="el">OGL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="et">OGL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="fi">OGL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="fr">OGL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="ga">OGL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="hr">OGL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="hu">OGL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="it">OGL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="lv">OGL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="lt">OGL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="mt">OGL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="nl">OGL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="pl">OGL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="pt">OGL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="ro">OGL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="sk">OGL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="sl">OGL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="es">OGL 2.0</skos:altLabel>
+        <skos:altLabel xml:lang="sv">OGL 2.0</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/"/>
+        <edp:licensingAssistant rdf:resource="https://www.europeandataportal.eu/en/content/show-license?license_id=OGL2.0"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://europeandataportal.eu/ontologies/od-licenses#OGL3.0" at:deprecated="false">
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/licence"/>
+        <dc:identifier>OGL_3_0</dc:identifier>
+        <skos:prefLabel xml:lang="en">Open Government Licence 3.0</skos:prefLabel>
+        <skos:altLabel xml:lang="en">OGL 3.0</skos:altLabel>
+        <skos:altLabel xml:lang="bg">OGL 3.0</skos:altLabel>
+        <skos:altLabel xml:lang="cs">OGL 3.0</skos:altLabel>
+        <skos:altLabel xml:lang="da">OGL 3.0</skos:altLabel>
+        <skos:altLabel xml:lang="de">OGL 3.0</skos:altLabel>
+        <skos:altLabel xml:lang="el">OGL 3.0</skos:altLabel>
+        <skos:altLabel xml:lang="et">OGL 3.0</skos:altLabel>
+        <skos:altLabel xml:lang="fi">OGL 3.0</skos:altLabel>
+        <skos:altLabel xml:lang="fr">OGL 3.0</skos:altLabel>
+        <skos:altLabel xml:lang="ga">OGL 3.0</skos:altLabel>
+        <skos:altLabel xml:lang="hr">OGL 3.0</skos:altLabel>
+        <skos:altLabel xml:lang="hu">OGL 3.0</skos:altLabel>
+        <skos:altLabel xml:lang="it">OGL 3.0</skos:altLabel>
+        <skos:altLabel xml:lang="lv">OGL 3.0</skos:altLabel>
+        <skos:altLabel xml:lang="lt">OGL 3.0</skos:altLabel>
+        <skos:altLabel xml:lang="mt">OGL 3.0</skos:altLabel>
+        <skos:altLabel xml:lang="nl">OGL 3.0</skos:altLabel>
+        <skos:altLabel xml:lang="pl">OGL 3.0</skos:altLabel>
+        <skos:altLabel xml:lang="pt">OGL 3.0</skos:altLabel>
+        <skos:altLabel xml:lang="ro">OGL 3.0</skos:altLabel>
+        <skos:altLabel xml:lang="sk">OGL 3.0</skos:altLabel>
+        <skos:altLabel xml:lang="sl">OGL 3.0</skos:altLabel>
+        <skos:altLabel xml:lang="es">OGL 3.0</skos:altLabel>
+        <skos:altLabel xml:lang="sv">OGL 3.0</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"/>
+        <edp:licensingAssistant rdf:resource="https://www.europeandataportal.eu/en/content/show-license?license_id=OGL3.0"/>
+    </skos:Concept>
+
+    <skos:Concept rdf:about="http://europeandataportal.eu/ontologies/od-licenses#PSEUL" at:deprecated="false">
+        <skos:inScheme rdf:resource="http://publications.europa.eu/resource/authority/licence"/>
+        <dc:identifier>PSEUL</dc:identifier>
+        <skos:prefLabel xml:lang="en">INSPIRE End User Licence</skos:prefLabel>
+        <skos:altLabel xml:lang="en">PSEUL</skos:altLabel>
+        <skos:altLabel xml:lang="bg">PSEUL</skos:altLabel>
+        <skos:altLabel xml:lang="cs">PSEUL</skos:altLabel>
+        <skos:altLabel xml:lang="da">PSEUL</skos:altLabel>
+        <skos:altLabel xml:lang="de">PSEUL</skos:altLabel>
+        <skos:altLabel xml:lang="el">PSEUL</skos:altLabel>
+        <skos:altLabel xml:lang="et">PSEUL</skos:altLabel>
+        <skos:altLabel xml:lang="fi">PSEUL</skos:altLabel>
+        <skos:altLabel xml:lang="fr">PSEUL</skos:altLabel>
+        <skos:altLabel xml:lang="ga">PSEUL</skos:altLabel>
+        <skos:altLabel xml:lang="hr">PSEUL</skos:altLabel>
+        <skos:altLabel xml:lang="hu">PSEUL</skos:altLabel>
+        <skos:altLabel xml:lang="it">PSEUL</skos:altLabel>
+        <skos:altLabel xml:lang="lv">PSEUL</skos:altLabel>
+        <skos:altLabel xml:lang="lt">PSEUL</skos:altLabel>
+        <skos:altLabel xml:lang="mt">PSEUL</skos:altLabel>
+        <skos:altLabel xml:lang="nl">PSEUL</skos:altLabel>
+        <skos:altLabel xml:lang="pl">PSEUL</skos:altLabel>
+        <skos:altLabel xml:lang="pt">PSEUL</skos:altLabel>
+        <skos:altLabel xml:lang="ro">PSEUL</skos:altLabel>
+        <skos:altLabel xml:lang="sk">PSEUL</skos:altLabel>
+        <skos:altLabel xml:lang="sl">PSEUL</skos:altLabel>
+        <skos:altLabel xml:lang="es">PSEUL</skos:altLabel>
+        <skos:altLabel xml:lang="sv">PSEUL</skos:altLabel>
+        <skos:exactMatch rdf:resource="http://www.ordnancesurvey.co.uk/business-and-government/public-sector/mapping-agreements/inspire-licence.html"/>
+        <edp:licensingAssistant rdf:resource="https://www.europeandataportal.eu/en/content/show-license?license_id=PSEUL"/>
+    </skos:Concept>
+
+</rdf:RDF>
